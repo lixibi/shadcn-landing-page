@@ -1,21 +1,18 @@
-const animate = require("tailwindcss-animate");
+import type { Config } from "tailwindcss"
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
   darkMode: ["class"],
-  safelist: ["dark"],
-  prefix: "",
-
   content: [
-    "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
   ],
-
+  prefix: "",
   theme: {
     container: {
       center: true,
-      padding: "1.5rem",
+      padding: "2rem",
       screens: {
         "2xl": "1400px",
       },
@@ -57,7 +54,6 @@ module.exports = {
         },
       },
       borderRadius: {
-        xl: "calc(var(--radius) + 4px)",
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
@@ -88,5 +84,7 @@ module.exports = {
       },
     },
   },
-  plugins: [animate],
-};
+  plugins: [require("tailwindcss-animate")],
+} satisfies Config
+
+export default config
