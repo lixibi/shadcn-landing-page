@@ -1,37 +1,18 @@
-# Shadcn Landing Page Template
+# Shadcn UI 测试项目
 
-## <a href="https://ui.shadcn.com/" target="_blank">Shadcn</a> + <a href="https://nextjs.org/" target="_blank">Next.js</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+这是一个使用 Next.js 14 和 Shadcn UI 构建的测试项目，用于展示各种 UI 组件和主题系统。
 
-### This is a project conversion <a href="https://github.com/leoMirandaa/shadcn-vue-landing-page" target="_blank">Shadcn-Vue</a> to NextJS
+## 技术栈
 
-![Alt text](./public/demo-img.jpg)
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+- Radix UI
 
-## Sections
+## 开始使用
 
-- [x] Navbar
-- [x] Sidebar(mobile)
-- [x] Hero
-- [x] Sponsors
-- [x] Benefits
-- [x] Features
-- [x] Testimonials
-- [x] Team
-- [x] Community
-- [x] Contact
-- [x] Pricing
-- [x] Frequently Asked Questions(FAQ)
-- [x] Services
-- [x] Footer
-
-## Features
-
-- [x] Fully Responsive Design
-- [x] User Friendly Navigation
-- [x] Dark Mode
-
-## How to install
-
-1. Clone this repositoy:
+### 本地开发
 
 ```bash
 git clone https://github.com/nobruf/shadcn-landing-page.git
